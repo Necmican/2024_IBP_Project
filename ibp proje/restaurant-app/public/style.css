@@ -1,0 +1,205 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html,body{
+  font-family: 'Segoe UI';
+  line-height: 1.7em
+}
+
+a {color:#333;text-decoration: none;}
+
+h1, h2, h3{
+padding-bottom: 20px;
+}
+
+p{margin: 10px 0p;}
+
+.clr
+{
+ clear: both;
+}
+
+.bg-dark
+{
+  background: #333;
+  color: #fff;
+}
+
+.bg-primary
+{
+  background: #f7c08a;
+  color: #333;
+}
+
+.container
+{
+  margin: auto;
+  max-width: 1600px;
+  overflow: auto;
+  padding: 0;
+}
+
+.box
+{
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  padding: 50px;
+}
+
+.btn{
+
+  font-size:18px;
+  color: #fff;
+  background: black;
+  Padding: 20px;
+  Display: inline-block;
+  border-radius: 10px;
+}
+
+.btn:hover{
+  background-color: #f7c08a;
+  color: black;
+
+}
+
+.primary
+{
+  color: #d5d53dfa;
+}
+
+#navbar{
+ background-color: #333;
+ overflow: auto;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1{
+float: left;
+padding: 20px 20px;
+}
+
+#navbar ul
+{
+  list-style: none;
+  float: right;
+
+}
+
+#navbar ul li
+{
+  float: left;
+}
+
+ #navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a:hover,a.current
+{
+ background-color: #544;
+ color: #f7c08a;
+}
+
+
+#showcase
+{
+background: url(https://images.pexels.com/photos/1319460/pexels-photo-1319460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center/cover;
+height: 600px;
+ }
+
+#showcase .showcase-content
+{
+text-align: center;
+padding-top: 200px;
+color: #fff;
+/* padding: */
+
+}
+
+.btn{
+
+  font-size:18px;
+  color: #fff;
+  background: black;
+  Padding: 20px;
+  Display: inline-block;
+  border-radius: 10px;
+}
+
+.btn-light
+{
+  background-color: #f4f4f4;
+  color: #333;
+
+}
+
+#home-info{
+  height: 300px;
+}
+#home-info .info-img
+{
+float:left;
+width: 50%;
+background: url(https://images.pexels.com/photos/897265/pexels-photo-897265.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center/cover;
+min-height: 100%;
+}
+
+
+#home-info .info-content
+{
+  float: right;
+  padding: 50px 30px;
+  width: 50%;
+  min-height: 100%;
+  text-align: center;
+  overflow: hidden;
+
+}
+
+#home-info .info-content p
+{padding-bottom: 30px;}
+
+/*not working - need to get images within these container
+#features .box #icon-1
+{
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+
+*/
+ .box #icon-1 img
+{
+  width: 100px;
+  height:100px;
+}
+
+.box #icon-2 img
+{
+  width: 100px;
+  height:100px;
+}
+
+.box #icon-3 img
+{
+  width: 100px;
+  height:100px;
+}
+
+/* #primary-footer
+{
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
+} */
